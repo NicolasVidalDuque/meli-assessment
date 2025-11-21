@@ -1,0 +1,574 @@
+{
+  "test_results": [
+    {
+      "query": "What laptops have Intel Core i7 processors?",
+      "retrieval": {
+        "query": "What laptops have Intel Core i7 processors?",
+        "chunks": [
+          {
+            "chunk_id": "452:cpu",
+            "laptop_id": 452,
+            "content": "MSI GE66Raider - Cpu: Intel Core i7-10750H",
+            "metadata": {
+              "field": "cpu",
+              "producer": "MSI",
+              "model": "GE66Raider",
+              "full_name": "MSI GE66 Raider"
+            },
+            "token_count": 7,
+            "field_name": "cpu"
+          },
+          {
+            "chunk_id": "860:cpu",
+            "laptop_id": 860,
+            "content": "Acer PredatorHelios300 - Cpu: Intel Core i7-11800H",
+            "metadata": {
+              "field": "cpu",
+              "producer": "Acer",
+              "model": "PredatorHelios300",
+              "full_name": "Acer Predator Helios 300"
+            },
+            "token_count": 7,
+            "field_name": "cpu"
+          },
+          {
+            "chunk_id": "537:cpu",
+            "laptop_id": 537,
+            "content": "HP 15 - Cpu: Intel Core i3-1115G4",
+            "metadata": {
+              "field": "cpu",
+              "producer": "HP",
+              "model": "15",
+              "full_name": "HP 15"
+            },
+            "token_count": 7,
+            "field_name": "cpu"
+          },
+          {
+            "chunk_id": "600:cpu",
+            "laptop_id": 600,
+            "content": "HP OMEN16 - Cpu: Intel Core i9-13900HX",
+            "metadata": {
+              "field": "cpu",
+              "producer": "HP",
+              "model": "OMEN16",
+              "full_name": "HP OMEN 16"
+            },
+            "token_count": 7,
+            "field_name": "cpu"
+          },
+          {
+            "chunk_id": "199:cpu",
+            "laptop_id": 199,
+            "content": "HP 17 - Cpu: Intel Core i5-1335U",
+            "metadata": {
+              "field": "cpu",
+              "producer": "HP",
+              "model": "17",
+              "full_name": "HP 17"
+            },
+            "token_count": 7,
+            "field_name": "cpu"
+          }
+        ],
+        "scores": [
+          5.286664288552336,
+          5.286664288552336,
+          5.286664288552336,
+          5.286664288552336,
+          5.286664288552336
+        ],
+        "retrieval_method": "BM25Retrieval"
+      },
+      "generation": {
+        "answer": "The laptops with Intel Core i7 processors are the MSI GE66 Raider with an Intel Core i7-10750H [452:cpu] and the Acer Predator Helios 300 with an Intel Core i7-11800H [860:cpu].",
+        "citations": [
+          "452:cpu",
+          "860:cpu"
+        ],
+        "used_chunks": [
+          "860:cpu",
+          "452:cpu"
+        ],
+        "word_count": 30
+      },
+      "critical_decision": {
+        "is_valid": true,
+        "unsupported_claims": [],
+        "supported_claims": [
+          "The laptops with Intel Core i7 processors are the MSI GE66 Raider with an Intel Core i7-10750H",
+          "The laptops with Intel Core i7 processors are the Acer Predator Helios 300 with an Intel Core i7-11800H"
+        ],
+        "reason": "All claims are supported by retrieved chunks",
+        "action": "accept",
+        "timestamp": "2025-11-21T03:05:56.921425"
+      },
+      "final_answer": "The laptops with Intel Core i7 processors are the MSI GE66 Raider with an Intel Core i7-10750H [452:cpu] and the Acer Predator Helios 300 with an Intel Core i7-11800H [860:cpu].",
+      "iteration_count": 1,
+      "total_latency": 2.190321922302246
+    },
+    {
+      "query": "Which laptops have NVIDIA RTX 3050 GPU?",
+      "retrieval": {
+        "query": "Which laptops have NVIDIA RTX 3050 GPU?",
+        "chunks": [
+          {
+            "chunk_id": "908:gpu",
+            "laptop_id": 908,
+            "content": "HP Victus15 - Gpu: NVIDIA GeForce RTX 3050 (Laptop)",
+            "metadata": {
+              "field": "gpu",
+              "producer": "HP",
+              "model": "Victus15",
+              "full_name": "HP Victus 15"
+            },
+            "token_count": 9,
+            "field_name": "gpu"
+          },
+          {
+            "chunk_id": "799:gpu",
+            "laptop_id": 799,
+            "content": "ASUS CreatorLaptopQ - Gpu: NVIDIA GeForce RTX 3050 (Laptop)",
+            "metadata": {
+              "field": "gpu",
+              "producer": "ASUS",
+              "model": "CreatorLaptopQ",
+              "full_name": "ASUS Creator Laptop Q"
+            },
+            "token_count": 9,
+            "field_name": "gpu"
+          },
+          {
+            "chunk_id": "602:gpu",
+            "laptop_id": 602,
+            "content": "LG gram16 - Gpu: NVIDIA GeForce RTX 3050 (Laptop)",
+            "metadata": {
+              "field": "gpu",
+              "producer": "LG",
+              "model": "gram16",
+              "full_name": "LG gram 16"
+            },
+            "token_count": 9,
+            "field_name": "gpu"
+          },
+          {
+            "chunk_id": "937:gpu",
+            "laptop_id": 937,
+            "content": "Acer SwiftX - Gpu: NVIDIA GeForce RTX 3050 (Laptop)",
+            "metadata": {
+              "field": "gpu",
+              "producer": "Acer",
+              "model": "SwiftX",
+              "full_name": "Acer Swift X"
+            },
+            "token_count": 9,
+            "field_name": "gpu"
+          },
+          {
+            "chunk_id": "990:gpu",
+            "laptop_id": 990,
+            "content": "Dell InspironPlus7620 - Gpu: NVIDIA GeForce RTX 3050 (Laptop)",
+            "metadata": {
+              "field": "gpu",
+              "producer": "Dell",
+              "model": "InspironPlus7620",
+              "full_name": "Dell Inspiron Plus 7620"
+            },
+            "token_count": 9,
+            "field_name": "gpu"
+          }
+        ],
+        "scores": [
+          10.47975902331303,
+          10.47975902331303,
+          10.47975902331303,
+          10.47975902331303,
+          10.47975902331303
+        ],
+        "retrieval_method": "BM25Retrieval"
+      },
+      "generation": {
+        "answer": "The laptops with NVIDIA RTX 3050 GPU are:\n- HP Victus15 [908:gpu]\n- ASUS CreatorLaptopQ [799:gpu]\n- LG gram16 [602:gpu]\n- Acer SwiftX [937:gpu]\n- Dell InspironPlus7620 [990:gpu]",
+        "citations": [
+          "908:gpu",
+          "799:gpu",
+          "602:gpu",
+          "937:gpu",
+          "990:gpu"
+        ],
+        "used_chunks": [
+          "602:gpu",
+          "908:gpu",
+          "937:gpu",
+          "799:gpu",
+          "990:gpu"
+        ],
+        "word_count": 28
+      },
+      "critical_decision": {
+        "is_valid": true,
+        "unsupported_claims": [],
+        "supported_claims": [
+          "The laptops with NVIDIA RTX 3050 GPU are: HP Victus15, ASUS CreatorLaptopQ, LG gram16, Acer SwiftX, Dell InspironPlus7620"
+        ],
+        "reason": "All claims are supported by retrieved chunks",
+        "action": "accept",
+        "timestamp": "2025-11-21T03:06:00.049937"
+      },
+      "final_answer": "The laptops with NVIDIA RTX 3050 GPU are:\n- HP Victus15 [908:gpu]\n- ASUS CreatorLaptopQ [799:gpu]\n- LG gram16 [602:gpu]\n- Acer SwiftX [937:gpu]\n- Dell InspironPlus7620 [990:gpu]",
+      "iteration_count": 1,
+      "total_latency": 3.104245185852051
+    },
+    {
+      "query": "What are the display specifications of ASUS laptops?",
+      "retrieval": {
+        "query": "What are the display specifications of ASUS laptops?",
+        "chunks": [
+          {
+            "chunk_id": "799:display_size",
+            "laptop_id": 799,
+            "content": "ASUS CreatorLaptopQ - Display Size: 15.6\u201d",
+            "metadata": {
+              "field": "display_size",
+              "producer": "ASUS",
+              "model": "CreatorLaptopQ",
+              "full_name": "ASUS Creator Laptop Q"
+            },
+            "token_count": 6,
+            "field_name": "display_size"
+          },
+          {
+            "chunk_id": "32:display_size",
+            "laptop_id": 32,
+            "content": "ASUS VivoBookS15(S533EA-DH74) - Display Size: 15.6\u201d",
+            "metadata": {
+              "field": "display_size",
+              "producer": "ASUS",
+              "model": "VivoBookS15(S533EA-DH74)",
+              "full_name": "ASUS VivoBook S15 (S533EA-DH74)"
+            },
+            "token_count": 6,
+            "field_name": "display_size"
+          },
+          {
+            "chunk_id": "334:display_size",
+            "laptop_id": 334,
+            "content": "ASUS ProArtStudiobook16 - Display Size: 16.0\u2033",
+            "metadata": {
+              "field": "display_size",
+              "producer": "ASUS",
+              "model": "ProArtStudiobook16",
+              "full_name": "ASUS ProArt Studiobook 16"
+            },
+            "token_count": 6,
+            "field_name": "display_size"
+          },
+          {
+            "chunk_id": "869:display_tech",
+            "laptop_id": 869,
+            "content": "ASUS VivoBook16X - Display Tech: IPS",
+            "metadata": {
+              "field": "display_tech",
+              "producer": "ASUS",
+              "model": "VivoBook16X",
+              "full_name": "ASUS VivoBook 16X"
+            },
+            "token_count": 6,
+            "field_name": "display_tech"
+          },
+          {
+            "chunk_id": "450:display_size",
+            "laptop_id": 450,
+            "content": "ASUS TUFGamingF15FX506 - Display Size: 15.6\u201d",
+            "metadata": {
+              "field": "display_size",
+              "producer": "ASUS",
+              "model": "TUFGamingF15FX506",
+              "full_name": "ASUS TUF Gaming F15 FX506"
+            },
+            "token_count": 6,
+            "field_name": "display_size"
+          }
+        ],
+        "scores": [
+          3.27149089016165,
+          3.27149089016165,
+          3.27149089016165,
+          3.27149089016165,
+          3.27149089016165
+        ],
+        "retrieval_method": "BM25Retrieval"
+      },
+      "generation": {
+        "answer": "ASUS laptops offer a variety of display sizes, including 15.6\u201d in models like the ASUS CreatorLaptopQ [799:display_size], ASUS VivoBookS15(S533EA-DH74) [32:display_size], and ASUS TUFGamingF15FX506 [450:display_size]. The ASUS ProArtStudiobook16 stands out with a 16.0\u201d display size [334:display_size]. Additionally, the ASUS VivoBook16X features an IPS display technology [869:display_tech].",
+        "citations": [
+          "799:display_size",
+          "32:display_size",
+          "450:display_size",
+          "334:display_size",
+          "869:display_tech"
+        ],
+        "used_chunks": [
+          "799:display_size",
+          "450:display_size",
+          "869:display_tech",
+          "334:display_size",
+          "32:display_size"
+        ],
+        "word_count": 45
+      },
+      "critical_decision": {
+        "is_valid": true,
+        "unsupported_claims": [],
+        "supported_claims": [
+          "ASUS laptops offer a variety of display sizes, including 15.6\u201d in models like the ASUS CreatorLaptopQ, ASUS VivoBookS15(S533EA-DH74), and ASUS TUFGamingF15FX506.",
+          "The ASUS ProArtStudiobook16 stands out with a 16.0\u201d display size.",
+          "The ASUS VivoBook16X features an IPS display technology."
+        ],
+        "reason": "All claims are supported by retrieved chunks",
+        "action": "accept",
+        "timestamp": "2025-11-21T03:06:02.455413"
+      },
+      "final_answer": "ASUS laptops offer a variety of display sizes, including 15.6\u201d in models like the ASUS CreatorLaptopQ [799:display_size], ASUS VivoBookS15(S533EA-DH74) [32:display_size], and ASUS TUFGamingF15FX506 [450:display_size]. The ASUS ProArtStudiobook16 stands out with a 16.0\u201d display size [334:display_size]. Additionally, the ASUS VivoBook16X features an IPS display technology [869:display_tech].",
+      "iteration_count": 1,
+      "total_latency": 2.3875348567962646
+    },
+    {
+      "query": "List laptops with at least 16GB RAM and 512GB SSD.",
+      "retrieval": {
+        "query": "List laptops with at least 16GB RAM and 512GB SSD.",
+        "chunks": [
+          {
+            "chunk_id": "251:weight",
+            "laptop_id": 251,
+            "content": "Dell Latitude74102-in-1 - Weight: 3.2 Gen 1 (5 Gbps), Sleep and Charge",
+            "metadata": {
+              "field": "weight",
+              "producer": "Dell",
+              "model": "Latitude74102-in-1",
+              "full_name": "Dell Latitude 7410 2-in-1"
+            },
+            "token_count": 12,
+            "field_name": "weight"
+          },
+          {
+            "chunk_id": "295:disc",
+            "laptop_id": 295,
+            "content": "HP ENVYx36015 - Disc: 512GB SSD",
+            "metadata": {
+              "field": "disc",
+              "producer": "HP",
+              "model": "ENVYx36015",
+              "full_name": "HP ENVY x360 15"
+            },
+            "token_count": 6,
+            "field_name": "disc"
+          },
+          {
+            "chunk_id": "543:disc",
+            "laptop_id": 543,
+            "content": "HP 15 - Disc: 512GB SSD",
+            "metadata": {
+              "field": "disc",
+              "producer": "HP",
+              "model": "15",
+              "full_name": "HP 15"
+            },
+            "token_count": 6,
+            "field_name": "disc"
+          },
+          {
+            "chunk_id": "482:disc",
+            "laptop_id": 482,
+            "content": "LG gram16 - Disc: 512GB SSD",
+            "metadata": {
+              "field": "disc",
+              "producer": "LG",
+              "model": "gram16",
+              "full_name": "LG gram 16"
+            },
+            "token_count": 6,
+            "field_name": "disc"
+          },
+          {
+            "chunk_id": "399:disc",
+            "laptop_id": 399,
+            "content": "Lenovo LegionPro516 - Disc: 512GB SSD",
+            "metadata": {
+              "field": "disc",
+              "producer": "Lenovo",
+              "model": "LegionPro516",
+              "full_name": "Lenovo Legion Pro 5 16"
+            },
+            "token_count": 6,
+            "field_name": "disc"
+          }
+        ],
+        "scores": [
+          5.6107769619756525,
+          4.23889232352703,
+          4.23889232352703,
+          4.23889232352703,
+          4.23889232352703
+        ],
+        "retrieval_method": "BM25Retrieval"
+      },
+      "generation": {
+        "answer": "Laptops with at least 16GB RAM and 512GB SSD are:\n1. HP ENVY x360 15 [295:disc]\n2. HP 15 [543:disc]\n3. LG gram 16 [482:disc]\n4. Lenovo Legion Pro 516 [399:disc]",
+        "citations": [
+          "295:disc",
+          "543:disc",
+          "482:disc",
+          "399:disc"
+        ],
+        "used_chunks": [
+          "543:disc",
+          "482:disc",
+          "399:disc",
+          "295:disc"
+        ],
+        "word_count": 31
+      },
+      "critical_decision": {
+        "is_valid": true,
+        "unsupported_claims": [],
+        "supported_claims": [
+          "HP ENVY x360 15 has 512GB SSD",
+          "HP 15 has 512GB SSD",
+          "LG gram 16 has 512GB SSD",
+          "Lenovo Legion Pro 516 has 512GB SSD"
+        ],
+        "reason": "All claims are supported by retrieved chunks",
+        "action": "accept",
+        "timestamp": "2025-11-21T03:06:04.756327"
+      },
+      "final_answer": "Laptops with at least 16GB RAM and 512GB SSD are:\n1. HP ENVY x360 15 [295:disc]\n2. HP 15 [543:disc]\n3. LG gram 16 [482:disc]\n4. Lenovo Legion Pro 516 [399:disc]",
+      "iteration_count": 1,
+      "total_latency": 2.2743427753448486
+    },
+    {
+      "query": "Which Dell laptops feature a an DIAMOND-V0 GPU?",
+      "retrieval": {
+        "query": "Which Dell laptops feature a an DIAMOND-V0 GPU?",
+        "chunks": [
+          {
+            "chunk_id": "974:producer",
+            "laptop_id": 974,
+            "content": "Dell",
+            "metadata": {
+              "field": "producer",
+              "producer": "Dell",
+              "model": "Inspiron3520",
+              "full_name": "Dell Inspiron 3520"
+            },
+            "token_count": 1,
+            "field_name": "producer"
+          },
+          {
+            "chunk_id": "846:producer",
+            "laptop_id": 846,
+            "content": "Dell",
+            "metadata": {
+              "field": "producer",
+              "producer": "Dell",
+              "model": "G55510",
+              "full_name": "Dell G5 5510"
+            },
+            "token_count": 1,
+            "field_name": "producer"
+          },
+          {
+            "chunk_id": "636:producer",
+            "laptop_id": 636,
+            "content": "Dell",
+            "metadata": {
+              "field": "producer",
+              "producer": "Dell",
+              "model": "G55511",
+              "full_name": "Dell G5 5511"
+            },
+            "token_count": 1,
+            "field_name": "producer"
+          },
+          {
+            "chunk_id": "590:producer",
+            "laptop_id": 590,
+            "content": "Dell",
+            "metadata": {
+              "field": "producer",
+              "producer": "Dell",
+              "model": "G167620",
+              "full_name": "Dell G16 7620"
+            },
+            "token_count": 1,
+            "field_name": "producer"
+          },
+          {
+            "chunk_id": "26:producer",
+            "laptop_id": 26,
+            "content": "Dell",
+            "metadata": {
+              "field": "producer",
+              "producer": "Dell",
+              "model": "Inspiron5400(2-in-1)",
+              "full_name": "Dell Inspiron 5400 (2-in-1)"
+            },
+            "token_count": 1,
+            "field_name": "producer"
+          }
+        ],
+        "scores": [
+          3.458748236853403,
+          3.458748236853403,
+          3.458748236853403,
+          3.458748236853403,
+          3.458748236853403
+        ],
+        "retrieval_method": "BM25Retrieval"
+      },
+      "generation": {
+        "answer": "The Dell laptop with a DIAMOND-V0 GPU is not specified in the available laptop specifications. [Information not available]",
+        "citations": [],
+        "used_chunks": [],
+        "word_count": 18
+      },
+      "critical_decision": {
+        "is_valid": true,
+        "unsupported_claims": [
+          "GPU model is DIAMOND-V0"
+        ],
+        "supported_claims": [
+          "Producer for ID 974 is Dell",
+          "Producer for ID 846 is Dell",
+          "Producer for ID 636 is Dell",
+          "Producer for ID 590 is Dell",
+          "Producer for ID 26 is Dell"
+        ],
+        "reason": "All claims are supported by retrieved chunks",
+        "action": "accept",
+        "timestamp": "2025-11-21T03:06:07.889988"
+      },
+      "final_answer": "The Dell laptop with a DIAMOND-V0 GPU is not specified in the available laptop specifications. [Information not available]",
+      "iteration_count": 1,
+      "total_latency": 3.1113269329071045
+    }
+  ],
+  "configuration": {
+    "sample_size": 300,
+    "top_k": 5,
+    "model": "gpt-3.5-turbo-0125",
+    "temperature": 0.0,
+    "chunking_strategy": "FieldBasedChunking",
+    "retrieval_backend": "bm25",
+    "min_tokens": 10,
+    "max_tokens": 120,
+    "max_iterations": 3
+  },
+  "aggregate_metrics": {
+    "avg_latency": 2.613554334640503,
+    "acceptance_rate": 1.0,
+    "total_queries": 5,
+    "accepted_queries": 5
+  },
+  "timestamp": "2025-11-21T03:06:07.922671"
+}
